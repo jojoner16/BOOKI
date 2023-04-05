@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 20px;
+  }
+
+  /* conteneur recherche/filtres */
+  form {
+    text-align: center;
+  }
+  .search .fa-map-marker-alt {
+    height: 22px;
+    padding: 15.2px;
+  }
+  .search button {
+    height: 53px;
+  }
+  #filter h2 {
+    margin: 2% 98% 2% 2%;
+  }
+  #filter {
+    flex-flow: row wrap;
+  }
+  .filter-box {
+    margin-bottom: 20px;
+  }
+
+  /* hébergements marseille et populaires*/
+  .popular .container {
+    order: 1;
+  }
+  #accommodation .marseille {
+    order: 2;
+    width: 100%;
+  }
+  #accommodation .popular {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #accommodation,
+  .accommodation-list,
+  #activity-list {
+    flex-direction: column;
+  }
+  .accommodation-list {
+    padding: 0px 20px 0px 20px;
+  }
+  .marseille .accommodation-list a article img {
+    width: 100%;
+    height: 220px;
+  }
+  #accommodation .marseille .accommodation-list a {
+    width: 100%;
+    height: 320px;
+  }
+
+  /* section activités marseille */
+  .activity {
+    padding: 0px 40px 0px 40px;
+  }
+  #activity-list a article img {
+    height: 220px;
+  }
+
+  /* footer */
+  footer {
+    width: 102.7%;
+    flex-direction: column;
+    margin: 0px -40px;
+  }
+  footer .column {
+    width: auto;
+    font-size: 1.1em;
+  }
+}
